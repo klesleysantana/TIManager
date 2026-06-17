@@ -224,7 +224,7 @@ namespace TIManager.Views
             {
                 try
                 {
-                    string pastaDestino = @"C:\TIManagerData\Imagens";
+                    string pastaDestino = @"\\192.168.10.152\ciras\TI\.TIManagerData\Imagens";
                     if (!Directory.Exists(pastaDestino)) Directory.CreateDirectory(pastaDestino);
 
                     string extensao = Path.GetExtension(caminhoImagemTemporario);

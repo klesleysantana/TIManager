@@ -12,7 +12,7 @@ namespace TIManager.Utils
         {
             try
             {
-                string thumbFolder = @"C:\TIManagerData\Thumbnails";
+                string thumbFolder = @"\\192.168.10.152\ciras\TI\.TIManagerData\Thumbnails";
                 if (!Directory.Exists(thumbFolder)) Directory.CreateDirectory(thumbFolder);
 
                 string thumbName = Path.GetFileNameWithoutExtension(pdfPath) + "_thumb.jpg";

@@ -198,7 +198,7 @@ namespace TIManager.Views
                         string originalPath = ofd.FileName;
                         string originalName = Path.GetFileName(originalPath);
                         
-                        string folderPath = @"C:\TIManagerData\Documentos";
+                        string folderPath = @"\\192.168.10.152\ciras\TI\.TIManagerData\Documentos";
                         string newFileName = $"{Guid.NewGuid()}_{originalName}";
                         string destPath = Path.Combine(folderPath, newFileName);
 
